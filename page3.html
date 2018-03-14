@@ -12,14 +12,14 @@
 		</div>
 
 		<nav id="head-area">
-			<ul class="top">
-				<li><a href="#">首頁</a></li>
-				<li><a href="#">AP優勢</a></li>
-				<li><a href="#">AP彩票</a></li>
-				<li><a href="#">產品介紹</a></li>
-				<li><a href="#">特點服務</a></li>
-				<li><a href="#">關於AP</a></li>
-			</ul>
+			<div class="top">
+				<span><a href="#">首頁</a></span>
+				<span><a href="#">AP優勢</a></span>
+				<span><a href="#">AP彩票</a></span>
+				<span><a href="#">產品介紹</a></span>
+				<span><a href="#">特點服務</a></span>
+				<span><a href="#">關於AP</a></span>
+			</div>
 
 		</nav>
 
@@ -42,18 +42,62 @@
 		</h2>
 		<h2>平板模板
 			<p>我們是來幫助您找到屬於自己位置的工具，成就一個UI/UX、現代並吸引人的網站。讓您花一份錢，即可享受三個網站的“待遇“，用戶訪問一網打盡。.</p>
-		</h2>
-		<p>才怪!!</p>
+
 	</main>
 	
 
 	<!--頁尾-->
 	<footer id="footer">
 
-		<h2>我的一小步還是我的一小步</h2>
+		<form id="contact" action="#" method="post">
+			<table border="1">
+				<caption>聯繫我們</caption>
+
+				<div class="table">
+					<tr>
+						<td><input type="text" name="name" placeholder="姓名"></td>
+						<td><input type="radio" name="gen" value="1">先生
+							<input type="radio" name="gen" value="2">女士</td>
+					</tr>
+					<tr>
+						<td><input type="email" name="email" placeholder="郵箱"></td>
+					</tr>
+					<tr>
+						<td><select name="select">
+							<option value="1">通訊帳號</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="id" placeholder="通訊帳號ID"></td>
+					</tr>
+				</div>
+
+				<div>
+					<tr>
+						<td><input type="tel" name="tel" placeholder="手機"></td>
+					</tr>
+					<tr>
+						<td><textarea name="textarea" placeholder="輸入內容">
+							
+						</textarea></td>
+					</tr>
+				</div>
+
+				<div>
+					<tr>
+						<td><input type="submit" name="submit" value="確認送出"></td>
+					</tr>
+				</div>
+			</table>
+		</form>
+
+		<nav>
+			<ul></ul>
+		</nav>
+
 	</footer>
 
-		<h1>聯繫我們</h1>
+		
 
 </body>
 </html>
