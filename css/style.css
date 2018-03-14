@@ -7,3 +7,7 @@ body .title {
 body .title span {
   font-size: 100px;
 }
+body #header {
+  background-image: url(img/ic-logo-ap.jpg);
+  background-repeat: no-repeat;
+}
