@@ -3,23 +3,24 @@
 <head>
 	<meta charset="utf-8">
 	<title>practice</title>
+	<link rel="stylesheet" type="css" href="css/style.css">
 </head>
 <body id="total" class="all">
 	<!--頁首-->
 	<header id="header">
 		<div id="icon">
-			
+			<img src="#">
 		</div>
 
 		<nav id="head-area">
-			<div class="top">
-				<span><a href="#">首頁</a></span>
-				<span><a href="#">AP優勢</a></span>
-				<span><a href="#">AP彩票</a></span>
-				<span><a href="#">產品介紹</a></span>
-				<span><a href="#">特點服務</a></span>
-				<span><a href="#">關於AP</a></span>
-			</div>
+			<ul class="top">
+				<li><a href="#">首頁</a></li>
+				<li><a href="#">AP優勢</a></li>
+				<li><a href="#">AP彩票</a></li>
+				<li><a href="#">產品介紹</a></li>
+				<li><a href="#">特點服務</a></li>
+				<li><a href="#">關於AP</a></li>
+			</ul>
 
 		</nav>
 
@@ -50,53 +51,47 @@
 	<footer id="footer">
 
 		<form id="contact" action="#" method="post">
-			<table border="1">
-				<caption>聯繫我們</caption>
 
-				<div class="table">
-					<tr>
-						<td><input type="text" name="name" placeholder="姓名"></td>
-						<td><input type="radio" name="gen" value="1">先生
-							<input type="radio" name="gen" value="2">女士</td>
-					</tr>
-					<tr>
-						<td><input type="email" name="email" placeholder="郵箱"></td>
-					</tr>
-					<tr>
-						<td><select name="select">
+			<h1>聯繫我們</h1>
+			<div class="table">
+				<ul class="table">
+					<li><input type="text" name="name" placeholder="姓名"></li>
+					<li><input type="radio" name="gen" value="1">先生
+						<input type="radio" name="gen" value="2">女士</li>
+					<li><input type="email" name="email" placeholder="郵箱"></li>
+					<li><select name="select">
 							<option value="1">通訊帳號</option>
-						</select></td>
-					</tr>
-					<tr>
-						<td><input type="text" name="id" placeholder="通訊帳號ID"></td>
-					</tr>
-				</div>
+						</select></li>
+					<li><input type="text" name="id" placeholder="通訊帳號ID"></li>
+					<li><input type="tel" name="tel" placeholder="手機"></li>
+					<li><textarea name="textarea" placeholder="輸入內容"></textarea></li>
+				</ul>
 
-				<div>
-					<tr>
-						<td><input type="tel" name="tel" placeholder="手機"></td>
-					</tr>
-					<tr>
-						<td><textarea name="textarea" placeholder="輸入內容">
-							
-						</textarea></td>
-					</tr>
-				</div>
-
-				<div>
-					<tr>
-						<td><input type="submit" name="submit" value="確認送出"></td>
-					</tr>
-				</div>
-			</table>
+			<div>
+				<span><input type="submit" name="submit" value="確認送出"></span>
+			</div>
 		</form>
 
-		<nav>
-			<span><a href="#"><img src="#"></a><br>apasia.sales</span>
-			<span><a href="#"><img src="#"></a><br>5862033</span>
-			<span><a href="#"><img src="#"></a><br>apsales</span>
-			<span><a href="#"><img src="#"></a><br>sales@apgames.com</span>
+		<nav class="contactway">
+			<ul class="contactway">
+				<li><a href="#"><img src="#"></a><br><span>apasia.sales</span></li>
+				<li><a href="#"><img src="#"></a><br><span>5862033</span></li>
+				<li><a href="#"><img src="#"></a><br><span>apsales</span></li>
+				<li><a href="#"><img src="#"></a><br><span>sales@apgames.com</span></li>
+			</ul>
 		</nav>
+
+		<div class="fansclub">
+			<ul class="fansclub">
+				<li><a href="#"><img src="#" alt="facebook"></a></li>
+				<li><a href="#"><img src="#" alt="in"></a></li>
+				<li><a href="#"><img src="#" alt="新浪"></a></li>
+				<li><a href="#"><img src="#" alt="yahoo"></a></li>
+				<li><a href="#"><img src="#" alt="youtube"></a></li>
+			</ul>
+		</div>
+
+		<h5>Copyright 2017. all rights reserved.</h5>
 
 	</footer>
 
