@@ -1,22 +1,15 @@
 body {
   background-color: #ffffff;
   width: 1920px;
+  /*head*/
 }
 body img {
   boder: 0;
   max-width: 100%;
   heigh: auto;
 }
-body h1 {
-  font-size: 72px;
-  color: #ffffff;
-}
 body h2 {
   font-size: 60px;
-}
-body h4 {
-  font-size: 30px;
-  color: #ffffff;
 }
 body p {
   font-size: 26px;
@@ -43,7 +36,6 @@ body #icon {
   position: absolute;
   left: 62px;
   top: 10px;
-  background-color: transparent;
 }
 body #head-area {
   position: absolute;
@@ -58,7 +50,7 @@ body #head-area .top {
 body #head-area a {
   font-size: 16px;
   color: #ffffff;
-  padding: 4px;
+  padding: 4px 36px;
   text-decoration: none;
 }
 body #head-area a:hover {
@@ -67,4 +59,82 @@ body #head-area a:hover {
 body .head-word {
   display: flex;
   flex-flow: column nowrap;
+}
+body .head-word h1 {
+  font-size: 72px;
+  color: #ffffff;
+}
+body .head-word h4 {
+  font-size: 30px;
+  color: #ffffff;
+}
+/*middle*/
+#main {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 3278px;
+  width: 1920px;
+  text-align: center;
+  position: relative;
+}
+#main .main-1 {
+  display: flex;
+  flex-flow: column nowrap;
+}
+#main .main-1 h2 {
+  height: 84px;
+  width: 360px;
+  padding: 160px 780px;
+}
+#main .main-1 p {
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#main .main-2 {
+  background-image: radial-gradient(circle at 92% 10%, #57b2f1, #590daa);
+  box-shadow: -42px 42px 84px 0 rgba(106, 104, 208, 0.3);
+}
+#main .main-2 p {
+  width: 470px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#main .main-3 {
+  background-image: radial-gradient(circle at 84% 14%, #e346eb, #0a7cc8);
+  box-shadow: -42px 42px 84px 0 rgba(127, 115, 221, 0.3);
+}
+#main .main-3 p {
+  width: 470px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#main .main-4 {
+  background-image: radial-gradient(circle at 92% 10%, #6dee88, #036db5);
+  box-shadow: -42px 42px 84px 0 rgba(67, 172, 172, 0.3);
+}
+#main .main-4 p {
+  width: 470px;
+  display: flex;
+  flex-wrap: wrap;
+}
+/*ass*/
+#footer {
+  background-color: #0a0a0a;
+  height: 1024px;
+  width: 1920px;
+}
+#footer #footer-main {
+  background-image: url(../img/bg-footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  height: 930px;
+  width: 1744px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+#footer .copyright {
+  color: #ffffff;
 }
