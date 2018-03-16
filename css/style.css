@@ -1,21 +1,29 @@
-img {
+body img {
   boder: 0;
   max-width: 100%;
   heigh: auto;
 }
-body {
-  background-color: #dcdcdc;
+body h2 {
+  font-size: 45px;
 }
-body .title {
-  font-size: 50px;
-}
-body .title span {
-  font-size: 100px;
+body p {
+  font-size: 60px;
 }
 body #header {
-  background-image: url(img/ic-logo-ap.jpg);
+  background-image: url(img/bg-template.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   position: relative;
+}
+body #top {
+  display: flex;
+  height: 90px;
+  padding: 34px;
+  flex-direction: row;
+}
+body #icon {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
