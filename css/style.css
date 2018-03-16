@@ -9,14 +9,14 @@ body img {
 }
 body h1 {
   font-size: 72px;
-  font-color: #ffffff;
+  color: #ffffff;
 }
 body h2 {
   font-size: 60px;
 }
 body h4 {
   font-size: 30px;
-  fontcolor: #ffffff;
+  color: #ffffff;
 }
 body p {
   font-size: 26px;
@@ -49,6 +49,8 @@ body #head-area {
   position: absolute;
   right: 73px;
   top: 34px;
+}
+body #head-area .top {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
