@@ -92,6 +92,9 @@ body .head-word h4 {
   flex-wrap: wrap;
 }
 #main .main-2 {
+  width: 526px;
+  height: 526px;
+  border-radius: 526px;
   background-image: radial-gradient(circle at 92% 10%, #57b2f1, #590daa);
   box-shadow: -42px 42px 84px 0 rgba(106, 104, 208, 0.3);
 }
