@@ -83,12 +83,12 @@ p{
 
 /*middle*/
 #main{
-	display:flex;
-	flex-flow:column nowrap;
 	height:3278px;
 	width:1920px;
 	text-align:center;
 	position:relative;
+	display:flex;
+	flex-flow:column nowrap;
 
 	.main-1{
 	display:flex;
@@ -96,31 +96,60 @@ p{
 	h2{
 	height:84px;
 	width:360px;
-	padding:160px 780px;
+	margin:160px 780px;
+	}
+	span{
+	display:block
+	width: 90px;
+  	height: 6px;
+  	background-image: radial-gradient(circle at 100% 100%, #d41879, #2a00d7);
+  	margin:24px 915px;
 	}
 	p{
 	width:960px;
 	display:flex;
 	flex-wrap:wrap;
+	margin:80px 480px;
 	}
 	}
 
 	.main-2{
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:flex-end;
+	.2-words{
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:flex-start;
+	}
+	span{
+	display:block;
 	width: 526px;
   	height: 526px;
   	border-radius:526px;
   	background-image: radial-gradient(circle at 92% 10%, #57b2f1, #590daa);
 	box-shadow: -42px 42px 84px 0 rgba(106, 104, 208, 0.3);
+	}
 	p{
 	width:470px;
 	display:flex;
-	flex-wrap:wrap;
+	flex-flow:row wrap;
+	justify-content:flex-start;
 	}
 	}
 
 	.main-3{
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:flex-start;
+	span{
+  	display:block;
+	width: 800px;
+  	height: 800px;
+  	border-radius:800px;
   	background-image: radial-gradient(circle at 84% 14%, #e346eb, #0a7cc8);
   	box-shadow: -42px 42px 84px 0 rgba(127, 115, 221, 0.3);
+	}
 	p{
 	width:470px;
 	display:flex;
@@ -129,8 +158,17 @@ p{
 	}
 
 	.main-4{
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:flex-end;
+	span{
+	display:block;
+	width: 846px;
+  	height: 846px;
+  	border-radius:846px;
 	background-image: radial-gradient(circle at 92% 10%, #6dee88, #036db5);
   	box-shadow: -42px 42px 84px 0 rgba(67, 172, 172, 0.3);
+	}
 	p{
 	width:470px;
 	display:flex;

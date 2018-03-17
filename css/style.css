@@ -70,12 +70,12 @@ body .head-word h4 {
 }
 /*middle*/
 #main {
-  display: flex;
-  flex-flow: column nowrap;
   height: 3278px;
   width: 1920px;
   text-align: center;
   position: relative;
+  display: flex;
+  flex-flow: column nowrap;
 }
 #main .main-1 {
   display: flex;
@@ -84,14 +84,33 @@ body .head-word h4 {
 #main .main-1 h2 {
   height: 84px;
   width: 360px;
-  padding: 160px 780px;
+  margin: 160px 780px;
+}
+#main .main-1 span {
+  display: block
+	width: 90px;
+  height: 6px;
+  background-image: radial-gradient(circle at 100% 100%, #d41879, #2a00d7);
+  margin: 24px 915px;
 }
 #main .main-1 p {
   width: 960px;
   display: flex;
   flex-wrap: wrap;
+  margin: 80px 480px;
 }
 #main .main-2 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+#main .main-2 .2-words {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+#main .main-2 span {
+  display: block;
   width: 526px;
   height: 526px;
   border-radius: 526px;
@@ -101,9 +120,19 @@ body .head-word h4 {
 #main .main-2 p {
   width: 470px;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
 #main .main-3 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+#main .main-3 span {
+  display: block;
+  width: 800px;
+  height: 800px;
+  border-radius: 800px;
   background-image: radial-gradient(circle at 84% 14%, #e346eb, #0a7cc8);
   box-shadow: -42px 42px 84px 0 rgba(127, 115, 221, 0.3);
 }
@@ -113,6 +142,15 @@ body .head-word h4 {
   flex-wrap: wrap;
 }
 #main .main-4 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+#main .main-4 span {
+  display: block;
+  width: 846px;
+  height: 846px;
+  border-radius: 846px;
   background-image: radial-gradient(circle at 92% 10%, #6dee88, #036db5);
   box-shadow: -42px 42px 84px 0 rgba(67, 172, 172, 0.3);
 }
